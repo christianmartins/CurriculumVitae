@@ -1,0 +1,30 @@
+
+body {
+  background-color: #fff;
+}
+#sideNav{
+	background-color: #363636;
+	text-align: center;
+ 	width: 17rem;
+  height: 100vh;
+}
+#sideNav a{
+  color:#fff !important;
+}
+#sideNav a:hover{
+	color: gray !important;
+}
+.navbar-brand {
+  margin: 0;
+}
+#img-profile{
+	margin-top: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.9) !important; 
+  height: 120px;
+  width:120px;
+}
+
+
+
+
+
