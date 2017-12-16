@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
   </head>
 
   <body id="page-top">
@@ -71,10 +72,40 @@
 	        <p>      
 	          Sou estudante do 4º semestre do curso de Análise e Desenvolvimento de Sistemas do Centro Universitário Estácio do Ceará. Atualmente desenvolvo pequenos sites e jogos. Atuo em desenvolvimento front-end, análise de requisitos, criação de diagramas de uml, liderança de equipe e programação voltada para jogos. Gosto muito de aprender, por isso busco sempre aprimorar meus conhecimentos através de cursos, palestras, eventos e estando envolvido em projetos pessoais e da faculdade. Meu objetivo é me tornar um desenvolvedor full-stack.
 	        </p>
-	        
-	        <span> Av. Osorio de Paiva 1431, Parangaba</span>
-	        <span>(85) 9-8401-8630</span>
-	       	<span>GIT</span>
+	       	<ul class="list-inline social-icons">
+            <li>
+	            <button type="button" class="btn" data-container="body" data-toggle="popover" data-placement="bottom" title="Endereço" data-content="Av. Osorio de Paiva 1431, Parangaba">
+							  <a href="#">
+              		<img src="img/gps2.png">
+              	</a>
+							</button>
+            </li>
+            
+            <li>
+            	<button type="button" class="btn" data-container="body" data-toggle="popover" data-placement="bottom" title="Telefone" data-content="(85) 9 8401-8630">
+							  <a href="#">
+              		<img src="img/phone.png">
+              	</a>
+							</button>   
+            </li>
+
+            <li>
+            	<button type="button" class="btn" data-container="body" data-toggle="popover" data-placement="bottom" title="Email" data-content="christianrmmartins@gmail.com">
+							  <a href="#">
+              		<img src="img/email2.png">
+              	</a>
+							</button>   
+            </li>
+
+            <li>
+            	<button type="button" class="btn">
+	              <a href="https://github.com/crmon/" target="_blank">
+	              	<img src="img/git2.png">
+	              </a>
+	            </button>
+            </li>
+          </ul>
+
         </div>
       </section>
 
@@ -197,6 +228,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+		<script type="text/javascript">
+			$(function () {
+			  $('[data-toggle="popover"]').popover()
+			})
+		</script>
 
   </body>
 
