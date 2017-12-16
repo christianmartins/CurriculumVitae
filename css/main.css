@@ -7,8 +7,6 @@ body {
 #sideNav{
 	background-color: #363636;
 	text-align: center;
- 	width: 15rem;
-  height: 100vh;
 }
 
 #sideNav a{
@@ -29,10 +27,13 @@ body {
 @media (min-width: 992px) {
   #sideNav {
     flex-direction: column;
+    width: 15rem;
+  	height: 100vh;
   }
   #sideNav .navbar-nav {
     flex-direction: column;
-    width: 100%; 
+    width: 100%;
+  }
 }
 
 
@@ -40,6 +41,10 @@ body {
 
 }
 
+/* ----- Resume ----- */
+	.resume{
+		margin-top:6em;
+}
 
 /* ----- About ----- */
 #about h1{
