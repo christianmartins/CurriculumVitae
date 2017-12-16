@@ -1,6 +1,7 @@
 body {
   background-color: #efefef!important;
   padding-top: 54px;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -10,21 +11,29 @@ body {
   } 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
 h1{
   margin:0;
 }
 
 h2{
   margin: 2em 0 1em 0;
+  border-bottom: 1px solid black;
 }
 
 p {
-  margin-bottom: 2em;
+  line-height: 1.75;
 }
 
-h2 {
-  border-bottom: 1px solid black;
-}
 
 /* ----- Menu ----- */ 
 @media (min-width: 992px) {
@@ -68,6 +77,7 @@ h2 {
   border-bottom: 0.9px solid white;
 }
 
+
 /* ----- Resume ----- */
 @media (min-width: 768px) {
   section.resume-section {
@@ -77,11 +87,11 @@ h2 {
 }
 
 
-
 /* ----- About ----- */
 #about h1{
   font-size:4em;
 }
+
 #about p{
   margin-top:2em;
 }
@@ -100,12 +110,10 @@ h2 {
 
 .social-icons button:hover {
   background-color: #808080;
- 
 }
 
 .social-icons img {
-
   width: 40px;
   height: 40px;
- 
 }
+
