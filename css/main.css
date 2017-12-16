@@ -3,45 +3,48 @@ body {
 }
 
 
+/* ----- Menu ----- */ 
 #sideNav{
 	background-color: #363636;
 	text-align: center;
- 	width: 18rem;
+ 	width: 15rem;
   height: 100vh;
 }
+
 #sideNav a{
   color:#fff !important;
 }
+
 #sideNav a:hover{
 	color: gray !important;
 }
 
 #img-profile{
-
 	margin-top: 50px;
   border: 5px solid rgba(255, 255, 255, 0.3) !important; 
   height: 140px;
   width:140px;
-
-
-}
-
-
-@media (min-width: 992px) {
-}
-
-@media (min-width: 768px) {
-  
 }
 
 @media (min-width: 992px) {
   #sideNav {
     flex-direction: column;
   }
-
   #sideNav .navbar-nav {
     flex-direction: column;
     width: 100%; 
-  }
+}
+
+
+@media (min-width: 768px) {
 
 }
+
+
+/* ----- About ----- */
+#about h1{
+	font-size:4em;
+}
+
+
+
