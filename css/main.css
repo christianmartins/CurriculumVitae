@@ -24,9 +24,6 @@ h6 {
 
 h1{
   margin:0;
-  /*Não funciona
-  font-family: 'Bebas Neus', sans-serif;
-  */	
 }
 
 h2{
@@ -132,7 +129,7 @@ p {
 
 #formation li{
 	list-style: none;
-	border-left: 4px solid gray;
+	border-left: 5px solid gray;
 	margin-left: -1.7em;
 }
 
@@ -140,4 +137,63 @@ p {
 	margin-left: 15px;
 }
 
-	
+
+/* ----- Time Line Courses ----- */
+
+.container-time-line{
+  position: relative;
+  margin-left: 10px;
+}
+
+.container-time-line:before{
+  content: '';
+  width: 5px;
+  height: 100%;
+  background: black;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .content-time-line{
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .content-time-line{
+    width: 500px;
+  }
+}
+
+.content-time-line{
+  background: white;
+  padding: 20px;
+  margin: 20px 50px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.content-time-line:before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: white;
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.content-time-line:after{
+  content: '';
+  width: 34px;
+  height: 34px;
+  background: #3498db;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: -65px;
+  top: 35%;
+}
+
+
