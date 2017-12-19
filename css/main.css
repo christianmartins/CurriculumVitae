@@ -1,7 +1,7 @@
 body {
   background-color: #F8F8FF !important;
-  padding-top: 54px;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 60px;
+  font-family: 'Roboto Slab', sans-serif;
   font-size:1em;
 }
 
@@ -19,7 +19,6 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 }
 
 h1{
@@ -113,6 +112,7 @@ p {
 
 #about p{
   margin-top:2em;
+  font-size:17px;
 }
 
 .social-icons{

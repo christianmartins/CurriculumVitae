@@ -15,14 +15,18 @@
     <nav class="navbar-dark fixed-top navbar-expand-lg" id="side-nav">
 
       <div class="navbar-header">
+
+      	<a class="navbar-brand" href="#page-top">
+	        <span class="d-block d-lg-none">Curriculum Vitae</span>
+      	</a>
+
 		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-main" aria-controls="nav-main" aria-expanded="false" aria-label="Toggle navigation">
-		  		<span>MENU</span>
 		    	<span class="navbar-toggler-icon"></span>
 		  	</button>
     	</div>
 
     	<div class="profile d-none d-lg-block">
-	    	<a class="js-scroll-trigger" href="#page-top">
+	    	<a href="#page-top">
 	        <img class="rounded-circle mb-3" src="img/crm-1.jpg">
 	      </a>	
 
@@ -34,26 +38,26 @@
   		<div class="collapse navbar-collapse" id="nav-main">   			
 	      <ul class="navbar-nav">
 	        <li class="nav-item">
-	          <a class="nav-link js-scroll-trigger" href="#about">SOBRE</a>
+	          <a class="nav-link" href="#about">SOBRE</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link js-scroll-trigger" href="#formation">
+	          <a class="nav-link" href="#formation">
 	          	FORMAÇÃO ACADÊMICA
 	          </a>
 	        </li>
 	        
 	        <li class="nav-item">
-	          <a class="nav-link  js-scroll-trigger" href="#course">
+	          <a class="nav-link" href="#course">
 	          	CURSOS
 	          </a>
 	        </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skill">
+            <a class="nav-link" href="#skill">
             	HABILIDADES
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#project">
+            <a class="nav-link" href="#project">
             	PROJETOS
             </a>
           </li>
@@ -309,7 +313,7 @@
 		</script>
 
 		<script type="text/javascript">
-			$('.js-scroll-trigger').click(function() {
+			$('.nav-link').click(function() {
 	    	$('.navbar-collapse').collapse('hide');
 	  	});
   	</script>
