@@ -31,6 +31,10 @@ h2{
   border-bottom: 1px solid black;
 }
 
+li{
+  list-style: none;
+}
+
 p {
   line-height: 1.75;
 }
@@ -66,12 +70,22 @@ p {
   background-color: #000000;
 }
 
-#img-profile{
+.profile{
+  font-size:12px;
+  color:#fff;
+  margin-bottom:25px;
+  border-bottom: 0.9px solid white;
+}
+
+
+.profile img{
 	margin-top: 50px;
   border: 5px solid rgba(255, 255, 255, 0.3) !important; 
   height: 170px;
   width:145 px;
 }
+
+
 
 .profile{
   font-size:12px;
@@ -80,6 +94,10 @@ p {
   border-bottom: 0.9px solid white;
 }
 
+/* all */
+#about, #formation, #course, #skill, #project{
+  padding: 20px !important;
+}
 
 /* ----- Resume ----- */
 @media (min-width: 768px) {
@@ -126,13 +144,12 @@ p {
 
 
 /* ----- Time line ----- */
-
-.container-time-line{
+.time-line{
   position: relative;
   margin-left: 10px;
 }
 
-.container-time-line:before{
+.time-line:before{
   content: '';
   width: 5px;
   height: 100%;
@@ -140,27 +157,26 @@ p {
 }
 
 @media (min-width: 768px) {
-  .content-time-line{
+  .time-line ul {
     width: 80%;
   }
 }
 
 @media (min-width: 992px) {
-  .content-time-line{
+  .time-line ul {
     width: 60%;
   }
 }
 
-.content-time-line{
+.time-line ul{
   padding: 20px;
   margin: 20px 50px;
-  border-radius: 8px;
+  border-radius: 2px;
   position: relative;
-  list-style: none;
   color:white;
 }
 
-.content-time-line:before{
+.time-line ul:before{
   content: '';
   width: 20px;
   height: 20px;
@@ -170,7 +186,7 @@ p {
   transform: translateY(-50%) rotate(45deg);
 }
 
-.content-time-line:after{
+.time-line ul:after{
   content: '';
   width: 20px;
   height: 20px;
@@ -180,11 +196,33 @@ p {
   top: 40%;
 }
 
-.container-time-line:before,
-.content-time-line,
-.content-time-line:before,
-.content-time-line:after{
+.time-line:before,
+.time-line ul,
+.time-line ul:before,
+.time-line ul:after{
   background: #363636;
 }
 
+
+/* ---- Skill ---- */
+.container-skills {
+  margin:0;
+  padding: 0;
+}
+
+.container-skills li{
+  margin-bottom: 12px;
+
+}
+
+@media (min-width: 768px) {
+  .progress{
+    width: 60%;
+    border-radius: 2px;
+  }
+}
+
+.progress-bar{
+  background: #363636;
+}
 
