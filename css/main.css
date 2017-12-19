@@ -28,7 +28,7 @@ h1{
 
 h2{
   margin: 2em 0 1em 0;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 li{
@@ -156,15 +156,9 @@ p {
   position: absolute;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .time-line ul {
-    width: 80%;
-  }
-}
-
-@media (min-width: 992px) {
-  .time-line ul {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -215,11 +209,28 @@ p {
 
 }
 
-@media (min-width: 768px) {
+/*
+@media (min-width: 500px) {
   .progress{
-    width: 60%;
-    border-radius: 2px;
+    width: 70%;
   }
+}
+
+@media (min-width: 992px) {
+  .progress{
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .progress{
+    width: 30%;
+  }
+}
+*/
+
+.progress{
+  border-radius: 2px;
 }
 
 .progress-bar{
