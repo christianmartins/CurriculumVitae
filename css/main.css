@@ -1,5 +1,5 @@
 body {
-  background-color: #efefef!important;
+  background-color: #F8F8FF !important;
   padding-top: 54px;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size:1em;
@@ -70,7 +70,7 @@ p {
 	margin-top: 50px;
   border: 5px solid rgba(255, 255, 255, 0.3) !important; 
   height: 170px;
-  width:140px;
+  width:145 px;
 }
 
 .profile{
@@ -125,20 +125,7 @@ p {
 }
 
 
-/* ----- Formation ----- */
-
-#formation li{
-	list-style: none;
-	border-left: 5px solid gray;
-	margin-left: -1.7em;
-}
-
-#formation p{
-	margin-left: 15px;
-}
-
-
-/* ----- Time Line Courses ----- */
+/* ----- Time line ----- */
 
 .container-time-line{
   position: relative;
@@ -149,35 +136,34 @@ p {
   content: '';
   width: 5px;
   height: 100%;
-  background: black;
   position: absolute;
 }
 
 @media (min-width: 768px) {
   .content-time-line{
-    width: 300px;
+    width: 80%;
   }
 }
 
 @media (min-width: 992px) {
   .content-time-line{
-    width: 500px;
+    width: 60%;
   }
 }
 
 .content-time-line{
-  background: white;
   padding: 20px;
   margin: 20px 50px;
   border-radius: 8px;
   position: relative;
+  list-style: none;
+  color:white;
 }
 
 .content-time-line:before{
   content: '';
   width: 20px;
   height: 20px;
-  background: white;
   position: absolute;
   left: -10px;
   top: 50%;
@@ -186,14 +172,19 @@ p {
 
 .content-time-line:after{
   content: '';
-  width: 34px;
-  height: 34px;
-  background: #3498db;
-  border: 3px solid black;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   position: absolute;
-  left: -65px;
-  top: 35%;
+  left: -58px;
+  top: 40%;
+}
+
+.container-time-line:before,
+.content-time-line,
+.content-time-line:before,
+.content-time-line:after{
+  background: #363636;
 }
 
 
